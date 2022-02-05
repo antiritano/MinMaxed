@@ -1,20 +1,17 @@
-
+import {Route, Link, Routes, BrowserRouter} from "react-router-dom"
 import './App.css';
-import { Layout } from './components/Layout';
-import Hero from './components/Hero'
-import MostRecent from './components/MostRecent'
-import RetroReviewCards from './components/RetroReviewCards';
+import Home from './Home'
+import Article from './pages/articles/[slug]'
+
+
 function App() {
   return (
-<div>
-      <Layout>
-      <Hero/>
-  <MostRecent/>
-  <RetroReviewCards/>
-      </Layout>
-
-
-  </div>
+<BrowserRouter>
+<Routes>
+<Route path="/" element={<Home/>} />
+<Route path="/Articles/:slug" element={<Article/>} />
+</Routes>
+</BrowserRouter>
   );
 }
 
