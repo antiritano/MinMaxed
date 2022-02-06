@@ -11,17 +11,17 @@ export default function Review(props) {
             <div className="mx-auto container w-full flex items-center md:flex-row flex-col-reverse justify-between px-6 lg:px-0">
               <div className="flex flex-col justify-start items-start lg:w-2/5 px-2 lg:px-0 lg:mr-10">
                 <div className="mb-3 lg:mt-0 mt-5">
-                  <p className="lg:text-sm text-xs text-gray-600 dark:text-gray-300 font-medium leading-none">
+                  <p className="lg:text-sm text-xs text-gray-600 font-medium leading-none">
                     Written by: Anthony Iritano
                   </p>
                 </div>
                 <div className="mt-3">
-                  <p className="text-gray-800 dark:text-white lg:text-4xl text-3xl font-extrabold leading-9">
+                  <p className="text-gray-800 lg:text-4xl text-3xl font-extrabold leading-9">
                     Elden Ring
                   </p>
                 </div>
                 <div className="mt-3 ">
-                  <p className="lg:text-base text-sm leading-normal text-gray-600 dark:text-gray-300">
+                  <p className="lg:text-base text-sm leading-normal text-gray-600">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
