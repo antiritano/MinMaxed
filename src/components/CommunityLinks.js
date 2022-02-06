@@ -13,10 +13,10 @@ export default function index() {
     <div className="2xl:px-20 md:px-10 2xl:mx-auto 2xl:container">
       <div className="md:py-12 py-8 px-4">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="lg:text-5xl md:text-4xl text-2xl font-bold leading-10 text-gray-800">
+          <h1 className="lg:text-7xl md:text-4xl text-2xl font-bold leading-10 text-black">
             Join our <span className="text-jewel">Community</span>
           </h1>
-          <p className="text-base leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12">
+          <p className="text-base text-lg leading-normal text-center text-gray-600 mt-4 xl:w-1/2 w-10/12">
             MinMaxed is a community driven project and we want YOU to be apart
             of it. Join us anywhere below to collaborate, play or just to hang!
           </p>

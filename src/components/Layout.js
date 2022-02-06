@@ -11,7 +11,7 @@ export const Layout = ({ children }) => {
           rel="stylesheet"
         />
       </head>
-      <Header />
+
       <main>{children}</main>
       <Footer />
     </div>

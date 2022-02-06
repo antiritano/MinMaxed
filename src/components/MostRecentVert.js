@@ -32,7 +32,7 @@ const callouts = [
       href: '#',
     },
   ];
-  
+
   export default function MostRecentVert() {
     return (
       <div>
@@ -41,7 +41,7 @@ const callouts = [
             <h2 className="text-2xl font-extrabold text-gray-900">
               Recent Articles
             </h2>
-  
+
             <div className="mt-6 space-y-12 lg:space-y-0 ">
               {callouts.map((callout) => (
                 <div key={callout.name} className="group relative">
@@ -69,4 +69,3 @@ const callouts = [
       </div>
     );
   }
-  
