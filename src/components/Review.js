@@ -6,7 +6,7 @@ export default function Review(props) {
   return (
     <>
       <div>
-        <div className="dark:bg-gray-900">
+        <div className="">
           <div className="bg-gray-100">
             <div className="mx-auto container w-full flex items-center md:flex-row flex-col-reverse justify-between px-6 lg:px-0">
               <div className="flex flex-col justify-start items-start lg:w-2/5 px-2 lg:px-0 lg:mr-10">
@@ -29,13 +29,13 @@ export default function Review(props) {
                 </div>
                 <div className="grid grid-cols-2 mt-8 mb-8 gap-y-6">
                   <div>
-                    <p className="text-gray-800 dark:text-white text-sm lg:text-base font-bold leading-none">
+                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
                       Platform:{" "}
                       <span className="font-semibold md:font-medium">PC</span>
                     </p>
                   </div>
                   <div>
-                    <p className="text-gray-800 dark:text-white text-sm lg:text-base font-bold leading-none">
+                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
                       Developer:{" "}
                       <span className="font-semibold md:font-medium">
                         FromSoftware
@@ -43,13 +43,13 @@ export default function Review(props) {
                     </p>
                   </div>
                   <div>
-                    <p className="text-gray-800 dark:text-white text-sm lg:text-base font-bold leading-none">
+                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
                       Release:{" "}
                       <span className="font-semibold md:font-medium">2022</span>
                     </p>
                   </div>
                   <div>
-                    <p className="text-gray-800 dark:text-white text-sm lg:text-base font-bold leading-none">
+                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
                       Posted:{" "}
                       <span className="font-semibold md:font-medium">2022</span>
                     </p>
@@ -68,12 +68,12 @@ export default function Review(props) {
           <div className="mx-auto container w-full flex xl:flex-row flex-col justify-between items-start mt-12 px-6 lg:px-0">
             <div className="flex flex-col justify-start items-start xl:w-2/4">
               <div>
-                <h2 className="text-gray-800 dark:text-white lg:text-3xl text-2xl font-bold leading-7">
+                <h2 className="text-gray-800 lg:text-3xl text-2xl font-bold leading-7">
                   The Review
                 </h2>
               </div>
               <div className="mt-8">
-                <p className="text-gray-800 dark:text-white lg:text-base text-sm leading-normal">
+                <p className="text-gray-800 lg:text-base text-sm leading-normal">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -101,11 +101,11 @@ export default function Review(props) {
               </div>
               <div className="mt-8 flex justify-start items-start flex-col">
                 <div>
-                  <p className="text-gray-800 dark:text-white lg:text-base text-sm font-semibold leading-none">
+                  <p className="text-gray-800 lg:text-base text-sm font-semibold leading-none">
                     Breakdown
                   </p>
                 </div>
-                <div className="text-gray-800 dark:text-white mt-4 lg:text-base text-sm leading-normal">
+                <div className="text-gray-800 mt-4 lg:text-base text-sm leading-normal">
                   <ul>
                     <li className="flex justify-start items-start space-x-1 flex-row">
                       <div>-</div>
@@ -154,7 +154,7 @@ export default function Review(props) {
                     />
                   </div>
                   <div className="mt-8">
-                    <p className="text-gray-800 dark:text-white lg:text-base text-sm leading-normal">
+                    <p className="text-gray-800 lg:text-base text-sm leading-normal">
                       Another writing challenge can be to take the individual
                       sentences in the random paragraph and incorporate a single
                       sentence from that into a new paragraph to create a short
