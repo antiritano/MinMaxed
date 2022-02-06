@@ -1,6 +1,6 @@
-import React from "react";
-import MostRecentVert from "./MostRecentVert";
-import ReviewNumbers from "./ReviewNumbers"
+import React from 'react';
+import MostRecentVert from './MostRecentVert';
+import ReviewNumbers from './ReviewNumbers';
 
 export default function Review(props) {
   return (
@@ -81,22 +81,21 @@ export default function Review(props) {
                   irure dolor in reprehenderit in voluptate velit esse cillum
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                  Another writing challenge can be to take the individual
-                      sentences in the random paragraph and incorporate a single
-                      sentence from that into a new paragraph to create a short
-                      story. Unlike the random sentence generator, the sentences
-                      from the random paragraph will have some connection to one
-                      another so it will be a bit different. You also won't know
-                      exactly how many sentences will appear in the random
-                      paragraph.Another writing challenge can be to take the
-                      individual sentences in the random paragraph and
-                      incorporate a single sentence from that into a new
-                      paragraph to create a short story. Unlike the random
-                      sentence generator, the sentences from the random
-                      paragraph will have some connection to one another so it
-                      will be a bit different. You also won't know exactly how
-                      many sentences will appear in the random paragraph.
+                  mollit anim id est laborum. Another writing challenge can be
+                  to take the individual sentences in the random paragraph and
+                  incorporate a single sentence from that into a new paragraph
+                  to create a short story. Unlike the random sentence generator,
+                  the sentences from the random paragraph will have some
+                  connection to one another so it will be a bit different. You
+                  also won't know exactly how many sentences will appear in the
+                  random paragraph.Another writing challenge can be to take the
+                  individual sentences in the random paragraph and incorporate a
+                  single sentence from that into a new paragraph to create a
+                  short story. Unlike the random sentence generator, the
+                  sentences from the random paragraph will have some connection
+                  to one another so it will be a bit different. You also won't
+                  know exactly how many sentences will appear in the random
+                  paragraph.
                 </p>
               </div>
               <div className="mt-8 flex justify-start items-start flex-col">
@@ -169,25 +168,25 @@ export default function Review(props) {
                       sentence generator, the sentences from the random
                       paragraph will have some connection to one another so it
                       will be a bit different. You also won't know exactly how
-                      many sentences will appear in the random paragraph.
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                      many sentences will appear in the random paragraph. Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="lg:mt-24">
-            <MostRecentVert />
+              <MostRecentVert />
             </div>
           </div>
-      <ReviewNumbers/>
+          <ReviewNumbers />
         </div>
       </div>
     </>

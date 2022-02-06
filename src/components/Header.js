@@ -2,19 +2,14 @@ import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
 
-const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Reviews', href: '#', current: false },
-  { name: 'Articles', href: '#', current: false },
-  { name: 'Community', href: '#', current: false },
-  { name: 'About', href: '#', current: false },
-];
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function Example() {
+export default function Header(props) {
+  const {navigation} = props
   return (
     <Disclosure as="nav" className="bg-black z-50">
       {({ open }) => (

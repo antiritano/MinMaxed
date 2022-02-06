@@ -4,7 +4,7 @@ export default function index() {
   return (
     <div className="mt-10">
       <div className="pb-20">
-        <div className="mx-auto bg-gray-100 h-96">
+        <div className="mx-auto bg-gray-100 lg:h-96 h-72">
           <div className="mx-auto container w-full flex flex-col justify-center items-center">
             <div className="flex justify-center items-center flex-col">
               <div className="mt-20">
