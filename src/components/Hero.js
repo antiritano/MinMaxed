@@ -1,13 +1,7 @@
 
 
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-];
 
-export default function Example() {
+export default function Hero() {
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -38,7 +32,7 @@ export default function Example() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="/articles/Elden-Ring"
+                    href="/reviews/Elden-Ring"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-jewel hover:bg-gray-400 md:py-4 md:text-lg md:px-10"
                   >
                     Read More

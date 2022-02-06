@@ -1,7 +1,7 @@
 import {Route, Link, Routes, BrowserRouter} from "react-router-dom"
 import './App.css';
 import Home from './Home'
-import Article from './pages/articles/[slug]'
+import Article from './pages/reviews/[slug]'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 <BrowserRouter>
 <Routes>
 <Route path="/" element={<Home/>} />
-<Route path="/Articles/:slug" element={<Article/>} />
+<Route path="/reviews/:slug" element={<Article/>} />
 </Routes>
 </BrowserRouter>
   );

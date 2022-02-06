@@ -2,7 +2,7 @@ import { Layout } from "../../components/Layout";
 import Review from "../../components/Review";
 
 
-function Article() {
+function ReviewPage() {
   return (
     <div className="App">
       <Layout>
@@ -12,5 +12,5 @@ function Article() {
   );
 }
 
-export default Article;
+export default ReviewPage;
 

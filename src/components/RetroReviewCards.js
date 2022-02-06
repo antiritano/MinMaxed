@@ -26,7 +26,7 @@ function RetroReviewCards() {
                   typesetting industry.
                 </p>
                 <div className="mt-4">
-                    <a href>
+                    <a href='/reviews/Zelda-oot'>
                       <p className="text-black underline text-base font-semibold f-m-m">
                         Read More
                       </p>
@@ -53,7 +53,7 @@ function RetroReviewCards() {
                     and typesetting industry.
                   </p>
                   <div className="mt-4">
-                    <a href>
+                    <a href='reviews/sonic'>
                       <p className="text-black underline text-base font-semibold f-m-m">
                         Read More
                       </p>
@@ -79,7 +79,7 @@ function RetroReviewCards() {
                     and typesetting industry.
                   </p>
                   <div className="mt-4">
-                    <a href>
+                    <a href='/reviews/devil-may-cry'>
                       <p className="text-black underline text-base font-semibold f-m-m">
                         Read More
                       </p>
@@ -89,10 +89,12 @@ function RetroReviewCards() {
               </div>
               <div className="lg:flex items-start mb-8">
                 <div className="rounded w-full h-44 overflow-hidden">
+                <a href='/reviews/pokemon-emerald'>
                   <img
                     src="https://www.wikihow.com/images/thumb/0/04/Conquer-the-Battle-Frontier-in-Pok%C3%A9mon-Emerald-Version-Step-25-Version-2.jpg/aid4041552-v4-1200px-Conquer-the-Battle-Frontier-in-Pok%C3%A9mon-Emerald-Version-Step-25-Version-2.jpg"
                     className="w-full h-full object-center object-cover cursor-pointer hover:opacity-75"
                   />
+                  </a>
                 </div>
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
@@ -105,7 +107,7 @@ function RetroReviewCards() {
                     and typesetting industry.
                   </p>
                   <div className="mt-4">
-                    <a href>
+                    <a href='/reviews/pokemon-emerald'>
                       <p className="text-black underline text-base font-semibold f-m-m">
                         Read More
                       </p>
