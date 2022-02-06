@@ -2,7 +2,7 @@ import React from "react";
 
 export default function index() {
   return (
-    <div className="dark:bg-gray-900 mt-10">
+    <div className="mt-10">
       <div className="pb-20">
         <div className="mx-auto bg-gray-100 lg:h-96 h-72">
           <div className="mx-auto container w-full flex flex-col justify-center items-center">
