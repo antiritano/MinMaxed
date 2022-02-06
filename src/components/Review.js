@@ -7,64 +7,6 @@ export default function Review(props) {
     <>
       <div>
         <div className="">
-          <div className="bg-gray-100">
-            <div className="mx-auto container w-full flex items-center md:flex-row flex-col-reverse justify-between px-6 lg:px-0">
-              <div className="flex flex-col justify-start items-start lg:w-2/5 px-2 lg:px-0 lg:mr-10">
-                <div className="mb-3 lg:mt-0 mt-5">
-                  <p className="lg:text-sm text-xs text-gray-600 font-medium leading-none">
-                    Written by: Anthony Iritano
-                  </p>
-                </div>
-                <div className="mt-3">
-                  <p className="text-gray-800 lg:text-4xl text-3xl font-extrabold leading-9">
-                    Elden Ring
-                  </p>
-                </div>
-                <div className="mt-3 ">
-                  <p className="lg:text-base text-sm leading-normal text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-                <div className="grid grid-cols-2 mt-8 mb-8 gap-y-6">
-                  <div>
-                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
-                      Platform:{" "}
-                      <span className="font-semibold md:font-medium">PC</span>
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
-                      Developer:{" "}
-                      <span className="font-semibold md:font-medium">
-                        FromSoftware
-                      </span>
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
-                      Release:{" "}
-                      <span className="font-semibold md:font-medium">2022</span>
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-gray-800 text-sm lg:text-base font-bold leading-none">
-                      Posted:{" "}
-                      <span className="font-semibold md:font-medium">2022</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="flex justify-center items-center object-cover lg:w-3/4 md:mt-0 lg:pl-10 lg:-mr-48 mr-0 -mr-10 -ml-10">
-                <img
-                  className="w-full border-black"
-                  src="https://www.denofgeek.com/wp-content/uploads/2021/11/Elden-Ring-gmaeplay.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
           <div className="mx-auto container w-full flex xl:flex-row flex-col justify-between items-start mt-12 px-6 lg:px-0">
             <div className="flex flex-col justify-start items-start xl:w-2/4">
               <div>
