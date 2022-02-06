@@ -1,7 +1,7 @@
 
 function Footer() {
     return (
-        <div className="pt-16 bg-black">
+        <div className="pt-16 bg-black mt-5">
             <div className="w-full border-gray-300 border-t lg:w-11/12 md:w-11/12 lg:mx-auto md:mx-auto">
                 <div className="container mx-auto py-12">
                     <div className="xl:flex lg:flex md:flex pt-6">

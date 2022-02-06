@@ -1,15 +1,16 @@
 import { Layout } from "../../components/Layout";
+import Review from "../../components/Review";
 
 
-
-function Article() {
+function ReviewPage() {
   return (
     <div className="App">
       <Layout>
-    THIS WILL BE AN ARTICLE
+    <Review/>
       </Layout>
     </div>
   );
 }
 
-export default Article;
+export default ReviewPage;
+
