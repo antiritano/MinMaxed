@@ -15,7 +15,7 @@ const navigationHome = [
 
 function Home() {
   return (
-    <div className="App snap-mandatory">
+    <div className="App">
       <Layout>
         <Header navigation={navigationHome} />
         <Hero />
