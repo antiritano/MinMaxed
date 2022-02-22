@@ -18,9 +18,7 @@ function Home() {
     <div className="App snap-mandatory">
       <Layout>
         <Header navigation={navigationHome} />
-        <div className="snap-start">
         <Hero />
-        </div>
         <MostRecent />
         <RetroReviewCards />
       </Layout>
