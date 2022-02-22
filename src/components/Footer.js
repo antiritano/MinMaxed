@@ -13,7 +13,6 @@ function Footer() {
                     src="/minmaxed.png"
                     alt="Workflow"
                   />
-
                             </div>
                         </div>
                         <div className="w-11/12 xl:w-1/6 lg:w-2/5 mx-auto lg:mx-0 xl:mx-0 pt-3 xl:flex xl:justify-end pl-3 sm:pl-0">

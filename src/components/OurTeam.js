@@ -30,7 +30,7 @@ export default function OurTeam() {
                   <SiDiscord size="25px" className="pr-2" />
                 </a>
                 <a href="">
-                  <SiGithub size="25px" />
+                  <SiGithub size="22px" className="githubIcon" />
                 </a>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function OurTeam() {
             <p className="lg:w-80 lg:px-0 px-4 text-base leading-6 text-center text-gray-900 mt-6">
               We are striving to create a place that the gaming community trusts
               This project is community driven and wouldn't be possible without
-              help you all.
+              you all.
             </p>
           </div>
           <div className="lg:w-96 w-80">
@@ -60,35 +60,51 @@ export default function OurTeam() {
               </p>
               <div className="flex justify-center mt-2">
                 <a href="https://steamcommunity.com/profiles/76561198035320226">
-                  <SiSteam size="25px" />
+                  <SiSteam size="20px" />
                 </a>
               </div>
             </div>
           </div>
           <div className="lg:w-96 w-80">
             <img
-              src="https://i.ibb.co/wKq8ZCW/team-3.png"
-              className="h-72 w-full object-cover object-center rounded-t-md"
+              src="danielle.jpg"
+              className="h-72 w-full object-cover object-top rounded-t-md"
               alt=""
             />
             <div className="bg-gray-200 shadow-md rounded-md py-4 text-center">
               <p className="text-base font-medium leading-6 text-gray-800">
-                Marry Smith
+               Danielle Desalvo
               </p>
-              <p className="text-base leading-6 mt-2 text-jewel">Writer</p>
+              <p className="text-base leading-6 mt-2 text-jewel">Designer</p>
             </div>
           </div>
           <div className="lg:w-96 w-80">
             <img
-              src="https://i.ibb.co/TKzGPFx/team-4.png"
-              className="h-72 w-full object-cover object-center rounded-t-md"
+              src="https://www.gamespot.com/a/uploads/original/1493/14930800/2449144-0078184205-solid.jpg"
+              className="h-72 w-full object-cover object-bottom rounded-t-md"
               alt=""
             />
             <div className="bg-gray-200 shadow-md rounded-md py-4 text-center">
               <p className="text-base font-medium leading-6 text-gray-800">
-                John Renolds
+              Richie Aiello
               </p>
               <p className="text-base leading-6 mt-2 text-jewel">Developer</p>
+              <div className="flex justify-center mt-2">
+                <a href="">
+                  <SiSteam size="25px" className="pr-2" />
+                </a>
+                <a href="">
+                  <SiDiscord size="25px" className="pr-2" />
+                </a>
+                <a href="" className="githubIcon">
+                  <SiGithub size="20px" />
+                </a>
+                <style jsx>{`
+          .githubIcon {
+            padding-top: 2px;
+          }
+        `}</style>
+              </div>
             </div>
           </div>
           <div className="lg:w-96 w-80">
@@ -99,7 +115,7 @@ export default function OurTeam() {
             />
             <div className="bg-gray-200 shadow-md rounded-md py-4 text-center">
               <p className="text-base font-medium leading-6 text-gray-800">
-                Annie Jackie
+                Placeholder
               </p>
               <p className="text-base leading-6 mt-2 text-jewel">Designer</p>
             </div>
