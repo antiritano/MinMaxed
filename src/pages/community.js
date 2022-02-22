@@ -17,7 +17,7 @@ function CommunityPage() {
     <Layout>
       <Header navigation={navigationCommunity} />
       <CommunityLinks />
-      {/* <OurTeam/> */}
+       <OurTeam/>
       <Contact />
     </Layout>
   );

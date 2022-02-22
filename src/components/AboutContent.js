@@ -2,39 +2,45 @@ import React from "react";
 import CommunityLinksVert from "./CommunityLinksVert";
 import { ImPacman } from "react-icons/im";
 import { FaGhost } from "react-icons/fa";
+import { Animated } from "react-animated-css";
 
 const AboutContent = () => {
   return (
     <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
       <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
         <div className="w-full lg:w-6/12">
-          <h2 className="w-full font-bold lg:text-5xl text-3xl leading-9">
+          <Animated animationIn="bounceInLeft" isVisible={true}>
+          <div className="w-full font-bold lg:text-5xl text-3xl leading-9">
             A review platform you can <span className="text-jewel">trust</span>.
-          </h2>
+          </div>
           <p className="font-normal text-lg leading-6 text-gray-600 mt-6">
             MinMaxed strives to be a place that the gaming community can come to
             for quality unbiased content from real members of the platform. This
             site was created out of a passion for games and we promise to keep
             that passion at the forefront of our mission.
           </p>
+          </Animated>
         </div>
-        <div className="w-full">
+        <div className="lg:w-1/2 w-full">
+        <Animated animationIn="bounceInRight" isVisible={true}>
           <img
             className="lg:block hidden w-full"
-            src="https://www.stealthgaming.net/wp-content/uploads/2019/02/pac-man-retro-.jpg"
+            src="/resized-banner.jpg"
             alt=""
           />
+          </Animated>
           <img
             className="lg:hidden sm:block hidden w-full"
-            src="https://www.stealthgaming.net/wp-content/uploads/2019/02/pac-man-retro-.jpg"
+            src="/resized-banner.jpg"
             alt=""
           />
           <img
             className="sm:hidden block w-full"
-            src="https://www.stealthgaming.net/wp-content/uploads/2019/02/pac-man-retro-.jpg"
+            src="resized-banner.jpg"
             alt=""
           />
         </div>
+
       </div>
 
       <div className="relative mt-24">
@@ -87,11 +93,11 @@ const AboutContent = () => {
             Expand the scope of our content beyond written articles including
             streaming, podcasts and video content. We want to hilight the best
             of the community, if you feel your content fits within our mission
-            feel free to{" "}
+            {" "}
             <a href="/community" className="underline text-jewel">
               Reach out!
             </a>{" "}
-            We would love to hear from you
+            We would love to hear from you.
           </p>
         </div>
         <div className="sm:block hidden">
@@ -103,7 +109,7 @@ const AboutContent = () => {
             platform is to create a review structure that the community can
             trust and what better way to do that then to have content come
             directly from the community. Upload your own reviews/articles/videos
-            and have them go through a peer review process to have them verified
+            to get them through a peer review process to have them verified
             and hosted on the platform.
           </p>
         </div>

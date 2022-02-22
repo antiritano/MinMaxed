@@ -15,15 +15,17 @@ const navigationHome = [
 
 function Home() {
   return (
-    <div className="App">
+    <div className="App snap-mandatory">
       <Layout>
         <Header navigation={navigationHome} />
+        <div className="snap-start">
         <Hero />
+        </div>
         <MostRecent />
         <RetroReviewCards />
       </Layout>
     </div>
   );
-}
+};
 
 export default Home;
