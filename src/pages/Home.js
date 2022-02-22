@@ -15,12 +15,10 @@ const navigationHome = [
 
 function Home() {
   return (
-    <div className="App snap-mandatory">
+    <div className="App">
       <Layout>
         <Header navigation={navigationHome} />
-        <div className="snap-start">
         <Hero />
-        </div>
         <MostRecent />
         <RetroReviewCards />
       </Layout>
