@@ -1,8 +1,11 @@
-import React from "react";
-import CommunityLinksVert from "./CommunityLinksVert";
-import { ImPacman } from "react-icons/im";
-import { FaGhost } from "react-icons/fa";
-import { Animated } from "react-animated-css";
+import React from 'react';
+import CommunityLinks from './CommunityLinks';
+import { ImPacman } from 'react-icons/im';
+import { FaGhost } from 'react-icons/fa';
+import { Animated } from 'react-animated-css';
+import OurTeam from './OurTeam';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 const AboutContent = () => {
   return (
@@ -10,24 +13,25 @@ const AboutContent = () => {
       <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
         <div className="w-full lg:w-6/12">
           <Animated animationIn="bounceInLeft" isVisible={true}>
-          <div className="w-full font-bold lg:text-5xl text-3xl leading-9">
-            A review platform you can <span className="text-jewel">trust</span>.
-          </div>
-          <p className="font-normal text-lg leading-6 text-gray-600 mt-6">
-            MinMaxed strives to be a place that the gaming community can come to
-            for quality unbiased content from real members of the platform. This
-            site was created out of a passion for games and we promise to keep
-            that passion at the forefront of our mission.
-          </p>
+            <div className="w-full font-bold lg:text-5xl text-3xl leading-9">
+              A review platform you can{' '}
+              <span className="text-jewel">trust</span>.
+            </div>
+            <p className="font-normal text-lg leading-6 text-gray-600 mt-6">
+              MinMaxed strives to be a place that the gaming community can come
+              to for quality unbiased content from real members of the platform.
+              This site was created out of a passion for games and we promise to
+              keep that passion at the forefront of our mission.
+            </p>
           </Animated>
         </div>
         <div className="lg:w-1/2 w-full">
-        <Animated animationIn="bounceInRight" isVisible={true}>
-          <img
-            className="lg:block hidden w-full"
-            src="/resized-banner.jpg"
-            alt=""
-          />
+          <Animated animationIn="bounceInRight" isVisible={true}>
+            <img
+              className="lg:block hidden w-full"
+              src="/resized-banner.jpg"
+              alt=""
+            />
           </Animated>
           <img
             className="lg:hidden sm:block hidden w-full"
@@ -40,9 +44,8 @@ const AboutContent = () => {
             alt=""
           />
         </div>
-
       </div>
-
+      <Animated animationIn="bounce" isVisible="true">
       <div className="relative mt-24">
         <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
           <div className="z-20 w-14 h-14 flex bg-white rounded-full justify-center items-center">
@@ -57,7 +60,6 @@ const AboutContent = () => {
           </div>
         </div>
         <hr className="dottedSpaced z-10 absolute top-2/4 w-full bg-white" />
-
         <style jsx>{`
           .dottedSpaced {
             width: 100%;
@@ -92,11 +94,10 @@ const AboutContent = () => {
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">
             Expand the scope of our content beyond written articles including
             streaming, podcasts and video content. We want to hilight the best
-            of the community, if you feel your content fits within our mission
-            {" "}
+            of the community, if you feel your content fits within our mission{' '}
             <a href="/community" className="underline text-jewel">
               Reach out!
-            </a>{" "}
+            </a>{' '}
             We would love to hear from you.
           </p>
         </div>
@@ -109,8 +110,8 @@ const AboutContent = () => {
             platform is to create a review structure that the community can
             trust and what better way to do that then to have content come
             directly from the community. Upload your own reviews/articles/videos
-            to get them through a peer review process to have them verified
-            and hosted on the platform.
+            to get them through a peer review process to have them verified and
+            hosted on the platform.
           </p>
         </div>
       </div>
@@ -132,11 +133,12 @@ const AboutContent = () => {
           </p>
         </div>
       </div>
-
-      <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
-        <div className="w-full lg:w-6/12">
-          <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">
-            Our Mission
+      </Animated>
+      <AnimationOnScroll animateOnce="true" animateIn='animate__fadeInLeft'>
+      <div className="flex">
+        <div className="w-full my-16">
+          <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-black">
+            Our<span className='text-jewel'> Mission</span>
           </h2>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -157,8 +159,14 @@ const AboutContent = () => {
             from that into a new paragraph to create a short story.
           </p>
         </div>
-        <CommunityLinksVert />
       </div>
+      </AnimationOnScroll>
+      <AnimationOnScroll animateIn='animate__fadeInRight'animateOnce="true">
+      <OurTeam />
+      </AnimationOnScroll>
+      <AnimationOnScroll animateOnce="true" animateIn='animate__fadeInLeft'>
+      <CommunityLinks/>
+      </AnimationOnScroll>
     </div>
   );
 };

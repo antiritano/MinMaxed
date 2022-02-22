@@ -1,6 +1,7 @@
 import React from "react";
 import { SiDiscord, SiGithub, SiSteam } from "react-icons/si";
 
+
 export default function OurTeam() {
   return (
     <>
@@ -36,7 +37,7 @@ export default function OurTeam() {
             </div>
           </div>
           <div className="bg-gray-200 rounded-md lg:w-96 w-80 flex flex-col items-center justify-center md:py-0 py-12">
-            <h3 className="text-2xl font-semibold leading-6 text-center text-gray-900">
+            <h3 className="text-2xl font-semibold leading-6 text-center text-jewel">
               Our team
             </h3>
             <p className="lg:w-80 lg:px-0 px-4 text-base leading-6 text-center text-gray-900 mt-6">
@@ -76,6 +77,17 @@ export default function OurTeam() {
                Danielle Desalvo
               </p>
               <p className="text-base leading-6 mt-2 text-jewel">Designer</p>
+              <div className="flex justify-center mt-2">
+                <a href="">
+                  <SiSteam size="25px" className="pr-2" />
+                </a>
+                <a href="">
+                  <SiDiscord size="25px" className="pr-2" />
+                </a>
+                <a href="" className="githubIcon">
+                  <SiGithub size="20px" />
+                </a>
+                </div>
             </div>
           </div>
           <div className="lg:w-96 w-80">
@@ -115,9 +127,9 @@ export default function OurTeam() {
             />
             <div className="bg-gray-200 shadow-md rounded-md py-4 text-center">
               <p className="text-base font-medium leading-6 text-gray-800">
-                Placeholder
+                Alex Albanese
               </p>
-              <p className="text-base leading-6 mt-2 text-jewel">Designer</p>
+              <p className="text-base leading-6 mt-2 text-jewel">Lead content writer</p>
             </div>
           </div>
         </div>
