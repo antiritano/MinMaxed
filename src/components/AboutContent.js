@@ -26,13 +26,11 @@ const AboutContent = () => {
           </Animated>
         </div>
         <div className="lg:w-1/2 w-full">
-          <Animated animationIn="bounceInRight" isVisible={true}>
             <img
               className="lg:block hidden w-full"
               src="/resized-banner.jpg"
               alt=""
             />
-          </Animated>
           <img
             className="lg:hidden sm:block hidden w-full"
             src="/resized-banner.jpg"
@@ -45,7 +43,7 @@ const AboutContent = () => {
           />
         </div>
       </div>
-      <Animated animationIn="bounce" isVisible="true">
+      <Animated animationIn="fadeInRight" isVisible="true">
       <div className="relative mt-24">
         <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
           <div className="z-20 w-14 h-14 flex bg-white rounded-full justify-center items-center">
@@ -69,7 +67,6 @@ const AboutContent = () => {
           }
         `}</style>
       </div>
-
       <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
         <div>
           <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-jewel mt-6">
