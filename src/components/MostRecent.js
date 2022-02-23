@@ -36,9 +36,9 @@ const callouts = [
 export default function MostRecent() {
   return (
     <div className="bg-gray-100">
-      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-4">
-        <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-          <h2 className="text-2xl font-extrabold text-gray-900">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-16">
+        <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-24 lg:max-w-none">
+          <h2 className="text-2xl font-extrabold text-black">
             Recent Articles
           </h2>
 

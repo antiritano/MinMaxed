@@ -28,18 +28,8 @@ export default function Header(props) {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <a href='/'>
-                <div className="flex-shrink-0 flex items-center text-gray-300 text-2xl">
-                  Min<span className="text-jewel">Maxed</span>
-                  <img
-                    className="block lg:hidden h-10 w-auto ml-2"
-                    src="/minmaxed.png"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-10 w-auto ml-2"
-                    src="/minmaxed.png"
-                    alt="Workflow"
-                  />
+                <div className="flex-shrink-0 flex items-center text-white text-2xl">
+                  min<span className="text-jewel">Maxed</span>
                 </div>
                 </a>
                 <div className="hidden sm:block sm:ml-6">

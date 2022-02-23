@@ -7,7 +7,7 @@ function Footer() {
                     <div className="xl:flex lg:flex md:flex pt-6">
                         <div className="w-11/12 xl:w-3/6 lg:w-2/5 mx-auto lg:mx-0 xl:mx-0">
                             <div className="flex items-center mb-6 xl:mb-0 lg:mb-0">
-                            <p className="ml-3 font-bold text-3xl text-stark">Min<span className="text-jewel">Maxed</span></p>
+                            <p className="ml-3 font-bold text-3xl text-white">min<span className="text-jewel">Maxed</span></p>
                             </div>
                         </div>
                         <div className="w-11/12 xl:w-1/6 lg:w-2/5 mx-auto lg:mx-0 xl:mx-0 pt-3 xl:flex xl:justify-end pl-3 sm:pl-0">
