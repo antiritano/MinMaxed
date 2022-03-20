@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import ReviewPage from "./pages/reviews/[slug]";
 import CommunityPage from "./pages/community";
 import AboutPage from "./pages/about";
+import ReviewListPage from "./pages/reviews/index"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/reviews/:slug" element={<ReviewPage />} />
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/reviews" element={<ReviewListPage />} />
       </Routes>
     </BrowserRouter>
   );
