@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 const navigationCommunity = [
   { name: "Home", href: "/", current: false },
   { name: "Reviews", href: "/reviews", current: false },
-  { name: "Articles", href: "#", current: false },
+  { name: "Articles", href: "/articles", current: false },
   { name: "Community", href: "/community", current: true },
   { name: "About", href: "/about", current: false },
 ];
