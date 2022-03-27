@@ -3,19 +3,19 @@ import { Layout } from "../../components/Layout";
 import Review from "../../components/Review";
 import { ReviewHero } from "../../components/ReviewHero";
 
-const navigationReview = [
+const navigationArticle = [
   { name: "Home", href: "/", current: false },
-  { name: "Reviews", href: "/reviews", current: true },
-  { name: "Articles", href: "/articles", current: false },
+  { name: "Reviews", href: "/reviews", current: false },
+  { name: "Articles", href: "/articles", current: true },
   { name: "Community", href: "/community", current: false },
   { name: "About", href: "/about", current: false },
 ];
 
-function ReviewPage() {
+function ArticlePage() {
   return (
     <div className="App">
       <Layout>
-        <Header navigation={navigationReview} />
+        <Header navigation={navigationArticle} />
         <ReviewHero />
         <Review />
       </Layout>
@@ -23,4 +23,4 @@ function ReviewPage() {
   );
 }
 
-export default ReviewPage;
+export default ArticlePage;
