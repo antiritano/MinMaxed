@@ -5,9 +5,10 @@ import MostRecent from "../components/MostRecent";
 import RetroReviewCards from "../components/RetroReviewCards";
 import Header from "../components/Header";
 
+
 const navigationHome = [
   { name: "Home", href: "/", current: true },
-  { name: "Reviews", href: "#", current: false },
+  { name: "Reviews", href: "/reviews", current: false },
   { name: "Articles", href: "#", current: false },
   { name: "Community", href: "/community", current: false },
   { name: "About", href: "/about", current: false },

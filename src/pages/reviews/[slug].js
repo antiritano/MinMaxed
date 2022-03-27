@@ -5,7 +5,7 @@ import { ReviewHero } from "../../components/ReviewHero";
 
 const navigationReview = [
   { name: "Home", href: "/", current: false },
-  { name: "Reviews", href: "#", current: true },
+  { name: "Reviews", href: "/reviews", current: true },
   { name: "Articles", href: "#", current: false },
   { name: "Community", href: "/community", current: false },
   { name: "About", href: "/about", current: false },
