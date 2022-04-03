@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import MostRecent from "../components/MostRecent";
 import RetroReviewCards from "../components/RetroReviewCards";
 import Header from "../components/Header";
+import RecentReviewsList from "../components/RecentReviewsList";
 
 
 const navigationHome = [
@@ -21,7 +22,7 @@ function Home() {
         <Header navigation={navigationHome} />
         <Hero />
         <MostRecent />
-        <RetroReviewCards />
+        <RetroReviewCards header="Retro Reviews"/>
       </Layout>
     </div>
   );

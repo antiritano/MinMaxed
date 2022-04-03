@@ -28,7 +28,7 @@ export default function Contact() {
                             <div className="flex flex-col items-start xl:justify-start 2xl:justify-end xl:px-0 px-4">
                                 <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-jewel">Let’s Talk</h1>
                                 <div className="w-full 2xl:w-8/12 mt-3">
-                                    <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">For inquiries, please email us using the form below</h2>
+                                    <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">Email us using the form below</h2>
                                     <div className="mt-4 md:mt-8">
                                         <p className="text-gray-800 text-base font-medium">Name</p>
                                         <input className="mt-3 text-base border-2 w-11/12 lg:w-full xl:w-10/12 hover:border-jewel focus:border-jewel focus:outline-none border-black py-5 pl-4 text-gray-800" type="text" placeholder="Your Name" />

@@ -1,5 +1,4 @@
-
-import RecentReviewListItem from "./RecentReviewListItem";
+import RecentReviewListItem from './RecentReviewListItem';
 function ReviewPost(props) {
   return (
     <>
@@ -31,11 +30,13 @@ function ReviewPost(props) {
                   <p className="text-gray-700 text-base lg:text-lg  lg:leading-8 tracking-wide mt-6 w-11/12">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur nulla pariatu
-                    nulla pariatu nulla pariatu.
+                    aliqua. Nascetur ridiculus mus mauris vitae ultricies leo
+                    integer malesuada nunc. tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    nulla pariatu nulla pariatu nulla pariatu.
                   </p>
                   <div className="w-full mt-4 justify-end flex items-center cursor-pointer">
                     <p className="text-base tracking-wide text-indigo-500">
@@ -69,13 +70,12 @@ function ReviewPost(props) {
                 </div>
               </div>
               <div>
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 mt-3">
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                   <RecentReviewListItem
                     author="Alex Albanese"
                     date="2/21/22"
                     title="Hades"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod..."
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
                     image="https://cdn1.epicgames.com/min/offer/2560x1440-2560x1440-5e710b93049cbd2125cf0261dcfbf943.jpg"
                     imageAlt="Hades"
                   />
@@ -83,8 +83,7 @@ function ReviewPost(props) {
                     author="Noam Kroudo"
                     date="2/20/22"
                     title="Monster Hunter Rise"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod..."
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
                     image="https://cdn.akamai.steamstatic.com/steam/apps/1446780/capsule_616x353.jpg?t=1645786763"
                     imageAlt="Monster Hunter"
                   />
@@ -92,8 +91,7 @@ function ReviewPost(props) {
                     author="Anthony Iritano"
                     date="2/20/22"
                     title="Devil May Cry 5"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod..."
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
                     image="https://cdn.cloudflare.steamstatic.com/steam/apps/601150/header.jpg?t=1643243335"
                     imageAlt="Devil May Cry 5"
                   />
@@ -101,9 +99,8 @@ function ReviewPost(props) {
                     author="Anthony Iritano"
                     date="2/20/22"
                     title="Ghostwire Tokyo"
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod..."
-                    image="https://images.ctfassets.net/rporu91m20dc/6FmLtqmXxvFqTcn9JA9LS1/b2bd261c7d03c6e4a30193a28a008b30/Ghostwire_LargeHero_GameplayReveal.png"
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+                    image="https://cdn.cloudflare.steamstatic.com/steam/apps/1475810/header.jpg?t=1648479992"
                     imageAlt="Monster Hunter"
                   />
                 </div>

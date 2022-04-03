@@ -90,15 +90,15 @@ export default function OurTeam() {
                 </div>
             </div>
           </div>
-          <div className="lg:w-96 w-80">
+          <div className="lg:w-96 w-80 pt-">
             <img
-              src="https://www.gamespot.com/a/uploads/original/1493/14930800/2449144-0078184205-solid.jpg"
+              src="https://i.ibb.co/Lng30RF/team-5.png"
               className="h-72 w-full object-cover object-bottom rounded-t-md"
               alt=""
             />
             <div className="bg-gray-200 shadow-md rounded-md py-4 text-center">
               <p className="text-base font-medium leading-6 text-gray-800">
-              Richie Aiello
+              Placeholder
               </p>
               <p className="text-base leading-6 mt-2 text-jewel">Developer</p>
               <div className="flex justify-center mt-2">
@@ -121,15 +121,26 @@ export default function OurTeam() {
           </div>
           <div className="lg:w-96 w-80">
             <img
-              src="https://i.ibb.co/Lng30RF/team-5.png"
-              className="h-72 w-full object-cover object-center rounded-t-md"
+              src="/alex.png"
+              className="h-72 w-full object-cover object-top rounded-t-md"
               alt=""
             />
             <div className="bg-gray-200 shadow-md rounded-md py-4 text-center">
               <p className="text-base font-medium leading-6 text-gray-800">
                 Alex Albanese
               </p>
-              <p className="text-base leading-6 mt-2 text-jewel">Lead content writer</p>
+              <p className="text-base leading-6 mt-2 text-jewel">Content writer</p>
+              <div className="flex justify-center mt-2">
+                <a href="">
+                  <SiSteam size="25px" className="pr-2" />
+                </a>
+                <a href="">
+                  <SiDiscord size="25px" className="pr-2" />
+                </a>
+                <a href="" className="githubIcon">
+                  <SiGithub size="20px" />
+                </a>
+                </div>
             </div>
           </div>
         </div>
