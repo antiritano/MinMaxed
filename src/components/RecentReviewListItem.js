@@ -14,7 +14,7 @@ const RecentReviewListItem = (props) => {
           {props.date}
         </p>
       </div>
-      <div className="bg-white px-3  lg:px-6 py-4 rounded-bl rounded-br">
+      <div className="RecentReviewListItem__textContainer bg-white px-3  lg:px-6 py-4 rounded-bl rounded-br">
         <h1 className="text-lg text-black font-semibold tracking-wider">
           {props.title}
         </h1>
@@ -22,6 +22,11 @@ const RecentReviewListItem = (props) => {
          {props.body}
         </p>
       </div>
+      <style jsx>{`
+          .RecentReviewListItem__textContainer {
+            height: 242px;
+          }
+        `}</style>
     </div>
   );
 };

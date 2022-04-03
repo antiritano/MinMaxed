@@ -76,7 +76,7 @@ const AboutContent = () => {
             Establish a community and build a staff of passionate writers to
             provide quality content for our launch. Development of the site is
             all being done internally, we want to provide the highest quality
-            experience and website can provide. If you are interested in
+            experience and website possible. If you are interested in
             contributing to the development process we would love to hear from
             you.
             <a href="/community" className="underline text-jewel">
@@ -90,7 +90,7 @@ const AboutContent = () => {
           </p>
           <p className="font-normal text-base leading-6 text-gray-600 mt-6">
             Expand the scope of our content beyond written articles including
-            streaming, podcasts and video content. We want to hilight the best
+            streaming, podcasts and video content. We want to highlight the best
             of the community, if you feel your content fits within our mission{' '}
             <a href="/community" className="underline text-jewel">
               Reach out!
